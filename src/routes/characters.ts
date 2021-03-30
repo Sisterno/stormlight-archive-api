@@ -1,5 +1,5 @@
 import { Application, Request, Response } from "express";
-import { characters,orders } from "../../utils/mocks/characters";
+import { characters,orders } from "../utils/mocks/characters";
 
 export function characterAPI(app:Application) {
     app.get('/api/character',(req:Request,res:Response)=>{
