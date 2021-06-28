@@ -58,3 +58,16 @@ export const characters:Array<charac>=[
         }
     }
 ]
+
+export function filterChracter(order:orders) {
+    return characters.filter(movie => movie.order == order)
+}
+
+export class charactersServiceMock {
+    async getCharacter(){
+        return Promise.resolve(characters);
+    }
+    async createCharacter(){
+        return Promise.resolve(characters[0]);
+    }
+}
