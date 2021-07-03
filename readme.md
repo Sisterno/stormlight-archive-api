@@ -15,7 +15,7 @@ Este proyecto tiene como principal objetivo crear una RESFUL API de donde poder 
 
 ## Diagrama de clases
 
-![Diagrama de clases](.\img\API_stromlight_archive_classDiagram.png)
+![Diagrama de clases](./img/API_stromlight_archive_classDiagram.png)
 
 ### Primer esquema de API's
 
