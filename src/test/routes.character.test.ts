@@ -12,7 +12,7 @@ describe('routes - character',function () {
         it('should respond with status 200',function (done) {
             request.get('/api/character').expect(200,done); 
         })
-        it('should respond with the listen',function (params:type) {
+        it('should respond with the listen',function (done) {
             request.get('/api/character').expect(200,done); 
         })
     });
