@@ -6,6 +6,9 @@
 
 Este proyecto tiene como principal objetivo crear una RESFUL API de donde poder obtener información esquematizada de la saga de libros. La información que se presentara aquí será recopilada de la wiki oficial de esta saga de libros [The Coppermind](https://coppermind.net/) .
 
+## Pruébalo tú mismo
+URL para probar -> https://stormlight-archive-api.herokuapp.com/
+
 ## Tecnologías utilizadas
 
 - JS/TS
