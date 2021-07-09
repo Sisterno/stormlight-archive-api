@@ -1,6 +1,6 @@
 import joi from "joi";
 
-export const characterIdSchema= joi.string().regex(/[0-9a-fA-F]{24}/);
+export const mongoIdSchema= joi.string().regex(/[0-9a-fA-F]{24}/);
 // export const characterIdSchema= joi.string().regex(/^[]{24}^/);
 const characterNameSchema= joi.string().max(150);
 const characterOtherNamesSchema = joi.array().items(
@@ -14,7 +14,7 @@ const characterParentsSchema = joi.object({
 })
 
 export const createCharacterSchema = {
-    id:characterIdSchema.required(),
+    id:mongoIdSchema.required(),
     name:characterNameSchema.required(),
     otherNames:characterOtherNamesSchema,
     born:characterBornSchema,
